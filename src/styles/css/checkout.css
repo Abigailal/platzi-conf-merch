@@ -1,0 +1,26 @@
+.btn {
+  border: none !important; }
+  .btn__paypal {
+    background-image: url("../../assets/paypal-checkout-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 190px;
+    border: none; }
+  .btn__paypal:hover {
+    border: none; }
+  .btn__trash {
+    color: red;
+    font-size: 20px;
+    cursor: pointer; }
+
+.line--border {
+  height: 5px;
+  background-color: black; }
+.line--div {
+  height: 30px;
+  width: 30px;
+  background-color: black; }
+
+/*# sourceMappingURL=checkout.css.map */

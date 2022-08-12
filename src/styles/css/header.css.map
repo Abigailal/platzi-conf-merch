@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACI,cAAQ;EACJ,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;AAEhB,oBAAc;EACV,KAAK,EAAE,IAAI;;AAGnB,aAAa;EACT,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,IAAI;EACd,MAAM,EAAE,IAAI;EACT,SAAS,EAAE,IAAI;EAClB,aAAa,EAAE,GAAG;EAClB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,KAAK,EAAE,IAAI",
+"sources": ["../sass/header.scss"],
 "names": [],
 "file": "header.css"
 }
