@@ -1,4 +1,3 @@
-/* eslint-disable import/no-named-as-default */
 /* eslint-disable import/order */
 /* eslint-disable import/imports-first */
 
@@ -24,7 +23,10 @@ function Header() {
                     <Nav.Link href="/checkout" className='navbar-link'>
                     Check Out <RiShoppingBasket2Fill/>
                     </Nav.Link>
-                    {cart.length > 0 && <div className="Header-alert d-flex justify-content-center align-items-center">{cart.length}</div>}
+                    {cart.length > 0 &&
+                            <div className="Header-alert d-flex justify-content-center align-items-center">
+                            {cart.length}
+                            </div>}
                 </Nav>
             </Container>
         </Navbar>
